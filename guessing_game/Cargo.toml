@@ -1,0 +1,11 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.8.5" # especifica dependencia de rand con su version
+# realmente indica que compila con la 0.8.5 pero puede importar una version más actual que compile igualmente
+# si queremos verificar actualizaciones podemos usar cargo update
+# si hay una version superior a la 0.9.0 en este caso no lo actualizará pero dirá que está disponible
+# para cambiar a esa versión deberemos modificarlo acá
