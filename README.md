@@ -32,7 +32,7 @@ Compila el código con optimizaciones para que el programa corra más rápido. C
 $ cargo check
 ```
 
-Verifica si el código compila correctamente pero sin generar un ejecutable, por lo que es más rapido que hacer un `cargo build` convencional.
+Verifica si el código compila correctamente pero sin generar un ejecutable, por lo que es más rápido que hacer un `cargo build` convencional.
 
 ### Compilar y ejecutar proyecto
 
@@ -41,3 +41,11 @@ $ cargo run
 ```
 
 Compila el código (igual que `cargo build`) y ejecuta el programa.
+
+### Ver documentación
+
+```bash
+$ cargo doc --open
+```
+
+Abre la documentación en una página web, nos permite visualizar también las dependencias instaladas.
