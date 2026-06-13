@@ -49,3 +49,11 @@ $ cargo doc --open
 ```
 
 Abre la documentación en una página web, nos permite visualizar también las dependencias instaladas.
+
+### Actualizar dependencias
+
+```bash
+$ cargo update
+```
+
+Actualiza las versiones de las dependencias según la versión especificada en el Cargo.toml
