@@ -3,10 +3,22 @@
 version = 4
 
 [[package]]
+name = "branches"
+version = "0.1.0"
+
+[[package]]
 name = "cfg-if"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801"
+
+[[package]]
+name = "chapter3_practice"
+version = "0.1.0"
+
+[[package]]
+name = "functions"
+version = "0.1.0"
 
 [[package]]
 name = "getrandom"
@@ -39,6 +51,10 @@ name = "libc"
 version = "0.2.186"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "68ab91017fe16c622486840e4c83c9a37afeff978bd239b5293d61ece587de66"
+
+[[package]]
+name = "loops"
+version = "0.1.0"
 
 [[package]]
 name = "ppv-lite86"
@@ -113,6 +129,10 @@ name = "unicode-ident"
 version = "1.0.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
+
+[[package]]
+name = "variables"
+version = "0.1.0"
 
 [[package]]
 name = "wasi"
