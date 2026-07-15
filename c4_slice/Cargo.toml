@@ -1,5 +1,5 @@
 [package]
-name = "slice"
+name = "c4_slice"
 version = "0.1.0"
 edition = "2024"
 
