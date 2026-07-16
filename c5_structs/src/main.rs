@@ -28,6 +28,7 @@ fn main() {
         email: String::from("ejemplo@gmail.com"),
         sign_in_count: 1,
     };
+    let _example = build_user(String::from("email@gmail.com"), String::from("ejemplo"));
     // Para poder modificar un campo toda la estructura debe ser mutable
     let mut user1 = User {
         active: true,
@@ -48,10 +49,12 @@ fn main() {
         // usable porque mueve el string a user2
     };
     // Las estructuras como tuplas son todas de tipos diferentes aunque tengan los mismos tipos
-    let _black = Color(0, 0, 0);
+    let black = Color(0, 0, 0);
     let point = Point(0, 1, 2);
     // No podemos igualar un Color con un Point aunque todos los datos sean i32
     // Podemos obtener los datos desestructurando como las tuplas
     let Point(x, y, z) = point;
     println!("X: {x}, Y: {y}, Z: {z}");
+    let Color(r, g, b) = black;
+    println!("r: {r}, g: {g}, b: {b}");
 }
