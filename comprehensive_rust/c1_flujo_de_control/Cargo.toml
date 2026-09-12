@@ -1,0 +1,6 @@
+[package]
+name = "c1_flujo_de_control"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
