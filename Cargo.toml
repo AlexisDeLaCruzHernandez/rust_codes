@@ -1,9 +1,11 @@
 [workspace]
 resolver = "3"
 members = [
-    "*",
+    "rust_programming_languaje/*",
+    "rust_by_example/*",
+    "comprehensive_rust/*",
 ]
 exclude = [
     "target",
-    ".git"
+    ".git",
 ]
